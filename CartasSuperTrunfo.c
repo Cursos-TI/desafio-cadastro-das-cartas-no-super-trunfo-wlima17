@@ -10,9 +10,9 @@ int main() {
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
 
-    char estado[2];
+    char pais[3];
     char codigo_da_cidade[3]; //Definido limite de caracteres, para ficar dentro do padrão proposto.
-    char nome[30];
+    char nome_cidade[30];
     int populacao;
     float area;
     float pib;
@@ -23,8 +23,8 @@ int main() {
     // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
     
     //Função printf será utilizada sempre antes da captura de cada dado, para orientar usuário de como proceder.
-    printf("Digite a sigla do Estado: \n"); 
-    scanf("%s", &estado);
+    printf("Digite a sigla do País: \n"); 
+    scanf("%s", &pais);
 
 
     // Exibição dos Dados das Cartas:
