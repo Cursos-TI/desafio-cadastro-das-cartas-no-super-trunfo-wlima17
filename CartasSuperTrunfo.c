@@ -11,7 +11,7 @@ int main() {
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
 
     char pais[3];
-    char codigo_da_cidade[3]; //Definido limite de caracteres, para ficar dentro do padrão proposto.
+    char codigo_da_carta[3]; //Definido limite de caracteres, para ficar dentro do padrão proposto.
     char nome_cidade[30];
     int populacao;
     float area;
@@ -25,6 +25,9 @@ int main() {
     //Função printf será utilizada sempre antes da captura de cada dado, para orientar usuário de como proceder.
     printf("Digite a sigla do País: \n"); 
     scanf("%s", &pais);
+    printf("Lembrete: o código da carta de ser a inicial do País mais o número da carta, ex:B01\n");
+    printf("Digite o código da carta\n"); 
+    scanf("%s", &codigo_da_carta);
 
 
     // Exibição dos Dados das Cartas:
@@ -32,7 +35,7 @@ int main() {
     // Exiba os valores inseridos para cada atributo da cidade, um por linha.
 
     //Nesse bloco a função printf irá mostrar os dados capturados referente aos atributos das cartas.
-    printf("Estado: %s\n", estado);
+    printf("País: %s\n", pais);
 
     return 0;
 }
