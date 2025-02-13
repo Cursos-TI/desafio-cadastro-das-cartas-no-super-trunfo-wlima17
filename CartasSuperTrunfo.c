@@ -65,10 +65,8 @@ int main() {
     printf("Densidade populacional: %f\n", desidade_populacao);
     printf("PIB: %f\n", pib);
     printf("Pib percapita: %f\n",pib_percapita);
-    printf("Pontos turísticos: %d\n", pontos_turisticos);
+    printf("Pontos turísticos: %d\n", pontos_turisticos);  
 
     
-    
-
     return 0;
 }
