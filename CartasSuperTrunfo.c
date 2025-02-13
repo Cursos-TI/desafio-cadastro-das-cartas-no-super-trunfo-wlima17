@@ -11,12 +11,8 @@ int main() {
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
 
     //Bloco de variáveis dos atributos das cartas
-    char estado[10];
-    char codigo_da_carta[5];
-    char nome_cidade[30];
-    float populacao;
-    float area;
-    float pib;
+    char estado[10], codigo_da_carta[5], nome_cidade[30];
+    float populacao, area, pib;
     int pontos_turisticos;
 
     // Cadastro das Cartas:
