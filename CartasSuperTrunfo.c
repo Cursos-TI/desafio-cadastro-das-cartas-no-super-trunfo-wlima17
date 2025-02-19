@@ -98,6 +98,8 @@ int main() {
     printf("Pib per Capita: %.2f\n",pib_percapita_c2);
     printf("Super poder: %.2f\n", super_poder_c2);
      
+    printf("*** Comparação de Cartas ***\n");
+    printf("População Carta 1 > Carta 2: %d\n", populacao_c1 > populacao_c2);
 
     
     return 0;
