@@ -108,6 +108,9 @@ int main() {
      
     printf("*** Comparação de Cartas ***\n");
     //Bloco utilizando a função if e else para apresentar as cartas vencedoras após a comparação
+    /*Se o parametro da função If for true irá executar o comando de exibição carta 1 venceu
+    Se o parametro for False irá execurtar o comando da função Else, exibindo carta 2 venceu */
+    
     if (compara_populacao)
     {
         printf("População: Carta 1 venceu.%d\n", compara_populacao);
